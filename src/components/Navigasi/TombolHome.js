@@ -1,11 +1,11 @@
-import React, { useState, useLayoutEffect } from "react";
+import React, {useState, useLayoutEffect} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function TombolHome() {
-  return (
-    <>
-      <div className="Home">Steve Blog</div>
-    </>
-  );
+    return (
+        <>
+            <div className="Home">Steve CV</div>
+        </>
+    );
 }
 export default TombolHome;
