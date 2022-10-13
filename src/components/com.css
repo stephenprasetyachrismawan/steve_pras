@@ -1,0 +1,178 @@
+.Home {
+  background: #ffeedd;
+  border: 1px solid #9381ff;
+  box-shadow: 0px 4px 4px rgba(147, 129, 255, 0.57);
+  border-radius: 20px;
+  padding: 7px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.navtag {
+  background: #ffeedd;
+  border: 1px solid #9381ff;
+  box-shadow: 0px 4px 4px rgba(147, 129, 255, 0.57);
+  border-radius: 20px;
+  /* width: 375px; */
+  height: 43px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Flex-kiri {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Flex-kanan {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Flex2 {
+  display: flex;
+}
+.Flex2-vertical {
+  flex-direction: column;
+}
+
+.align-tengah {
+  align-items: center;
+}
+
+.justify-konten-tengah {
+  justify-content: space-between;
+}
+
+.lanjut {
+  width: 150px;
+  height: 40px;
+  background: #f8f7ff;
+  box-shadow: 0px 5px 5px rgba(147, 129, 255, 0.57);
+  border-radius: 20px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 18px;
+  border-width: 1px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.Glmbng {
+  /* s */
+  height: 30%;
+  position: absolute;
+  z-index: -5;
+}
+.depan3 {
+  position: static;
+  z-index: 3;
+}
+
+.karusel {
+  display: flex;
+  height: 300px;
+  width: 80%;
+  max-width: 550px;
+}
+
+.karusel_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.karusel_card {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.53);
+  box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.53);
+  opacity: 0;
+  transform: scale(0.8);
+  pointer-events: none;
+  transition: 0.75s ease-in-out;
+}
+
+.kartu_gambar {
+  width: 100%;
+  object-fit: cover;
+}
+
+.kartu_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.10);
+  display: flex;
+  padding: 40px 30px;
+  align-items: flex-end;
+}
+
+.kartu_judul {
+  color: white;
+  font-size: 30px;
+}
+
+.karusel_card_active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+.karusel_kiri {
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-bottom: 7px;
+  cursor: pointer;
+  left: 15px;
+}
+
+.karusel_kanan {
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-bottom: 7px;
+  cursor: pointer;
+  right: 15px;
+}
